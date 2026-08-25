@@ -1,0 +1,18 @@
+
+> ranking-cup@1.0.0 start
+> node server.js
+
+
+╔════════════════════════════════════╗
+║      RANKING CUP - WKF Golden Cup ║
+║     Sistema en ejecución 🚀       ║
+╚════════════════════════════════════╝
+
+📍 Admin:      http://localhost:3000/admin.html
+📍 Árbitro:    http://localhost:3000/arbitro.html
+📍 Live:       http://localhost:3000/live.html
+
+  
+✓ Base de datos conectada
+📥 Cargando categorías oficiales...
+✓ Categorías oficiales cargadas

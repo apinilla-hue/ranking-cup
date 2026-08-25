@@ -1,0 +1,187 @@
+═══════════════════════════════════════════════════════════════════
+    RANKING CUP - GUÍA DE INICIO RÁPIDO 🏆
+    Sistema para WKF World Golden Cup 2027
+═══════════════════════════════════════════════════════════════════
+
+📍 PASO 1: PREPARAR TU COMPUTADORA
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Necesitas tener instalado Node.js (si no lo tienes):
+1. Ve a https://nodejs.org
+2. Descarga la versión "LTS" (recomendada)
+3. Instala normalmente (siguiendo los pasos)
+4. Reinicia tu computadora
+
+
+📍 PASO 2: INSTALAR RANKING CUP
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Abre la terminal/CMD:
+   - Windows: Tecla Windows + R, escribe "cmd", Enter
+   - Mac/Linux: Abre Terminal
+
+2. Navega a la carpeta del proyecto:
+   cd C:\Users\TuUsuario\Downloads\ranking-cup
+   (ajusta la ruta según dónde hayas descargado)
+
+3. Ejecuta una sola vez:
+   npm install
+
+   (Esto descarga todas las librerías necesarias. Tarda 1-2 minutos)
+
+
+📍 PASO 3: INICIAR EL SISTEMA
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+En la misma terminal, escribe:
+   npm start
+
+Deberías ver algo como:
+   ╔════════════════════════════════════╗
+   ║      RANKING CUP - WKF Golden Cup ║
+   ║     Sistema en ejecución 🚀       ║
+   ╚════════════════════════════════════╝
+
+   📍 Admin:      http://localhost:3000/admin.html
+   📍 Árbitro:    http://localhost:3000/arbitro.html
+   📍 Live:       http://localhost:3000/live.html
+
+
+📍 PASO 4: ACCEDER A LA APLICACIÓN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Abre tu navegador (Chrome, Firefox, Edge, Safari) y ve a:
+
+   🏠 Página de inicio:
+   http://localhost:3000
+
+   O directamente a:
+
+   ⚙️ Panel Admin:
+   http://localhost:3000/admin.html
+
+   🥊 Panel Árbitro:
+   http://localhost:3000/arbitro.html
+
+   📺 Pantalla Live:
+   http://localhost:3000/live.html
+
+
+═══════════════════════════════════════════════════════════════════
+    GUÍA DE USO
+═══════════════════════════════════════════════════════════════════
+
+🏆 PANEL ADMIN (Gestión del torneo)
+─────────────────────────────────────────────────────────────────
+
+1. Registra cada competidor:
+   - Nombre
+   - Edad
+   - Peso (en kg)
+   - Sexo (Masculino/Femenino)
+   - Modalidad (Kickboxing, Boxeo, etc.)
+
+2. Una vez registrados todos, haz clic en:
+   "GENERAR BRACKETS AUTOMÁTICAMENTE"
+
+3. El sistema crea automáticamente los enfrentamientos
+
+
+🥊 PANEL ÁRBITRO (Para cada ring/cuadrilátero)
+─────────────────────────────────────────────────────────────────
+
+1. Selecciona tu Ring (1, 2, 3, etc.)
+2. Verás los dos competidores que van a pelear
+3. Cuando termina, haz clic en el botón del GANADOR
+4. El resultado se sincroniza automáticamente
+5. Aparece automáticamente el siguiente enfrentamiento
+
+
+📺 PANTALLA LIVE (Para TV/Proyector en el evento)
+─────────────────────────────────────────────────────────────────
+
+Se muestra automáticamente:
+- Ranking actualizado en tiempo real
+- Próximos enfrentamientos
+- Últimos resultados
+- Se actualiza automáticamente sin recargar
+
+
+═══════════════════════════════════════════════════════════════════
+    PARA MÚLTIPLES DISPOSITIVOS
+═══════════════════════════════════════════════════════════════════
+
+Si quieres usar tablets o móviles en la red local:
+
+1. Abre terminal y escribe:
+   ipconfig  (en Windows)
+   ifconfig  (en Mac/Linux)
+
+2. Busca la línea que dice "IPv4 Address" (algo como 192.168.1.XX)
+
+3. En tablet/móvil, en lugar de "localhost:3000", usa:
+   http://192.168.1.XX:3000
+
+(Reemplaza los XX con los números que viste)
+
+
+═══════════════════════════════════════════════════════════════════
+    DETENER EL SISTEMA
+═══════════════════════════════════════════════════════════════════
+
+En la terminal donde está corriendo:
+Presiona: Ctrl + C
+
+Y escribir: y (si pide confirmación)
+
+
+═══════════════════════════════════════════════════════════════════
+    SOLUCIÓN DE PROBLEMAS
+═══════════════════════════════════════════════════════════════════
+
+❌ "npm: comando no encontrado"
+→ Node.js no está instalado o no se reconoce
+→ Reinicia la computadora después de instalar Node.js
+
+❌ "Port 3000 already in use"
+→ Otro programa usa el puerto 3000
+→ Cierra otras aplicaciones o cambia el puerto en server.js
+
+❌ "Cannot find module"
+→ No ejecutaste "npm install"
+→ Ejecuta: npm install
+
+❌ La base de datos no funciona
+→ Borra la carpeta "data" y reinicia
+→ Se creará una nueva base de datos
+
+
+═══════════════════════════════════════════════════════════════════
+    RECOMENDACIONES PARA EL EVENTO
+═══════════════════════════════════════════════════════════════════
+
+✓ Prueba el sistema 1-2 días antes del evento
+✓ Ten un backup de los datos (copia la carpeta "data")
+✓ Usa Firefox o Chrome (los navegadores más rápidos)
+✓ Tablets de 10" para los árbitros
+✓ Una TV/proyector grande para la pantalla live
+✓ Conecta todos los dispositivos a la misma red WiFi
+
+
+═══════════════════════════════════════════════════════════════════
+    CUANDO COMPRES UN SERVIDOR
+═══════════════════════════════════════════════════════════════════
+
+Cuando migres a un servidor en la nube:
+→ Lee el archivo README.md (sección "Para Tu Servidor Futuro")
+→ El código es 100% compatible, sin cambios necesarios
+→ Solo necesitas subir los archivos y ejecutar "npm start"
+
+
+═══════════════════════════════════════════════════════════════════
+
+¿Preguntas o problemas? Contacta al desarrollador.
+
+¡Que gane el mejor! 🏆
+
+═══════════════════════════════════════════════════════════════════

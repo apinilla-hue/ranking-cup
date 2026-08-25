@@ -1,0 +1,263 @@
+═══════════════════════════════════════════════════════════════════════════════
+    RANKING CUP - DATOS DE PRUEBA
+    Lista de competidores para probar el sistema
+═══════════════════════════════════════════════════════════════════════════════
+
+📋 CÓMO USAR ESTA LISTA:
+
+1. Abre el Panel Admin: http://localhost:3000/admin.html
+2. Ve a "Registrar Competidores"
+3. Copia cada dato de abajo y pégalo en la app
+4. Presiona "REGISTRAR COMPETIDOR"
+5. Repite con todos
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🏆 POINT FIGHTING
+───────────────────────────────────────────────────────────────────────────────
+
+JUVENIL (14-17 años) - Peso Ligero (hasta 55kg)
+├─ Carlos Martínez Ruiz | 16 años | 52 kg | Masculino | Point Fighting
+├─ Laura García López | 15 años | 48 kg | Femenino | Point Fighting
+└─ Diego Sánchez Torres | 17 años | 54 kg | Masculino | Point Fighting
+
+JUVENIL (14-17 años) - Peso Medio (55-65kg)
+├─ María Rodríguez Pérez | 16 años | 60 kg | Femenino | Point Fighting
+├─ Jorge López Silva | 15 años | 63 kg | Masculino | Point Fighting
+└─ Ana Fernández Cruz | 17 años | 62 kg | Femenino | Point Fighting
+
+SENIOR (18-35 años) - Peso Ligero (hasta 60kg)
+├─ Miguel Ángel Domínguez | 24 años | 58 kg | Masculino | Point Fighting
+├─ Sofía Moreno Jiménez | 22 años | 56 kg | Femenino | Point Fighting
+└─ Pablo Gómez Navarro | 28 años | 59 kg | Masculino | Point Fighting
+
+SENIOR (18-35 años) - Peso Pesado (70kg+)
+├─ Juan Carlos Ruiz | 26 años | 75 kg | Masculino | Point Fighting
+├─ Cristina López Martín | 23 años | 72 kg | Femenino | Point Fighting
+└─ Andrés Fernández Gil | 30 años | 78 kg | Masculino | Point Fighting
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🥊 LIGHT FREE BOXING
+───────────────────────────────────────────────────────────────────────────────
+
+JUVENIL (14-17 años) - Peso Ligero
+├─ Óscar Jiménez Díaz | 16 años | 50 kg | Masculino | Light Free Boxing
+├─ Elena Sánchez Marcos | 15 años | 47 kg | Femenino | Light Free Boxing
+└─ Víctor Rodríguez Mayo | 17 años | 53 kg | Masculino | Light Free Boxing
+
+JUVENIL (14-17 años) - Peso Medio
+├─ Isabel García Núñez | 16 años | 58 kg | Femenino | Light Free Boxing
+├─ Tomás López Ramírez | 15 años | 61 kg | Masculino | Light Free Boxing
+└─ Marta Fernández Suárez | 17 años | 60 kg | Femenino | Light Free Boxing
+
+SENIOR (18-35 años) - Peso Ligero
+├─ Fernando Morales Castro | 25 años | 55 kg | Masculino | Light Free Boxing
+├─ Raquel García Benítez | 21 años | 52 kg | Femenino | Light Free Boxing
+└─ Sergio Martínez Iglesias | 29 años | 57 kg | Masculino | Light Free Boxing
+
+SENIOR (18-35 años) - Peso Pesado
+├─ Eduardo López Quintero | 27 años | 76 kg | Masculino | Light Free Boxing
+├─ Gabriela Sánchez Romero | 24 años | 74 kg | Femenino | Light Free Boxing
+└─ Roberto Díaz Herrera | 31 años | 79 kg | Masculino | Light Free Boxing
+
+═══════════════════════════════════════════════════════════════════════════════
+
+💥 KICK BOXING LIGHT
+───────────────────────────────────────────────────────────────────────────────
+
+JUVENIL (14-17 años) - Peso Ligero
+├─ Javier González Flores | 16 años | 51 kg | Masculino | Kick Boxing Light
+├─ Natalia Pérez Domínguez | 15 años | 46 kg | Femenino | Kick Boxing Light
+└─ Héctor Ruiz Medina | 17 años | 55 kg | Masculino | Kick Boxing Light
+
+JUVENIL (14-17 años) - Peso Medio
+├─ Lucía Martínez González | 16 años | 59 kg | Femenino | Kick Boxing Light
+├─ Iván Sánchez Gómez | 15 años | 64 kg | Masculino | Kick Boxing Light
+└─ Sandra García Morales | 17 años | 61 kg | Femenino | Kick Boxing Light
+
+SENIOR (18-35 años) - Peso Ligero
+├─ Álvaro Rodríguez Cabrera | 26 años | 56 kg | Masculino | Kick Boxing Light
+├─ Yolanda García Carmona | 23 años | 53 kg | Femenino | Kick Boxing Light
+└─ Luis Fernández Blanco | 30 años | 58 kg | Masculino | Kick Boxing Light
+
+SENIOR (18-35 años) - Peso Pesado
+├─ Xavier López Fuentes | 28 años | 77 kg | Masculino | Kick Boxing Light
+├─ Daniela Martínez Soto | 25 años | 75 kg | Femenino | Kick Boxing Light
+└─ Marcelo García Vázquez | 32 años | 80 kg | Masculino | Kick Boxing Light
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🥋 LIGHT THAÏ BOXING
+───────────────────────────────────────────────────────────────────────────────
+
+JUVENIL (14-17 años) - Peso Ligero
+├─ Samuel Pérez López | 16 años | 49 kg | Masculino | Light Thaï Boxing
+├─ Valeria Rodríguez García | 15 años | 44 kg | Femenino | Light Thaï Boxing
+└─ Martín Sánchez Díaz | 17 años | 52 kg | Masculino | Light Thaï Boxing
+
+JUVENIL (14-17 años) - Peso Medio
+├─ Paulina García Fernández | 16 años | 57 kg | Femenino | Light Thaï Boxing
+├─ Rodrigo López Martín | 15 años | 62 kg | Masculino | Light Thaï Boxing
+└─ Inés Moreno García | 17 años | 59 kg | Femenino | Light Thaï Boxing
+
+SENIOR (18-35 años) - Peso Ligero
+├─ Damián García López | 24 años | 54 kg | Masculino | Light Thaï Boxing
+├─ Vanessa Sánchez Cruz | 22 años | 51 kg | Femenino | Light Thaï Boxing
+└─ Gerardo Rodríguez Jiménez | 29 años | 56 kg | Masculino | Light Thaï Boxing
+
+SENIOR (18-35 años) - Peso Pesado
+├─ Sebastián López Ramírez | 27 años | 78 kg | Masculino | Light Thaï Boxing
+├─ Victoria García Herrera | 26 años | 76 kg | Femenino | Light Thaï Boxing
+└─ Nicanor Fernández Campos | 33 años | 81 kg | Masculino | Light Thaï Boxing
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🐯 THAÏ BOXING
+───────────────────────────────────────────────────────────────────────────────
+
+JUVENIL (14-17 años) - Peso Ligero
+├─ Cristóbal Martínez Nieto | 16 años | 50 kg | Masculino | Thaï Boxing
+├─ Giuliana Sánchez Pérez | 15 años | 45 kg | Femenino | Thaï Boxing
+└─ Leandro González Fuentes | 17 años | 53 kg | Masculino | Thaï Boxing
+
+JUVENIL (14-17 años) - Peso Medio
+├─ Lorena García López | 16 años | 58 kg | Femenino | Thaï Boxing
+├─ Edmundo López García | 15 años | 63 kg | Masculino | Thaï Boxing
+└─ Verónica Moreno Sánchez | 17 años | 60 kg | Femenino | Thaï Boxing
+
+SENIOR (18-35 años) - Peso Ligero
+├─ Arturo Sánchez Montoya | 25 años | 55 kg | Masculino | Thaï Boxing
+├─ Catalina García Rubio | 23 años | 52 kg | Femenino | Thaï Boxing
+└─ Gustavo Rodríguez Iglesias | 28 años | 57 kg | Masculino | Thaï Boxing
+
+SENIOR (18-35 años) - Peso Pesado
+├─ Benjamín López Vega | 26 años | 79 kg | Masculino | Thaï Boxing
+├─ Rosario García Delgado | 24 años | 77 kg | Femenino | Thaï Boxing
+└─ Aurelio Sánchez Rivas | 30 años | 82 kg | Masculino | Thaï Boxing
+
+═══════════════════════════════════════════════════════════════════════════════
+
+💪 BOXING FULL CONTACT
+───────────────────────────────────────────────────────────────────────────────
+
+JUVENIL (14-17 años) - Peso Ligero
+├─ Ignacio Fernández Cortés | 16 años | 48 kg | Masculino | Boxing Full Contact
+├─ Úrsula García Castillo | 15 años | 43 kg | Femenino | Boxing Full Contact
+└─ Florencio López Cortés | 17 años | 51 kg | Masculino | Boxing Full Contact
+
+JUVENIL (14-17 años) - Peso Medio
+├─ Susana Sánchez Ortiz | 16 años | 56 kg | Femenino | Boxing Full Contact
+├─ Emigdio García Vidal | 15 años | 61 kg | Masculino | Boxing Full Contact
+└─ Esperanza Rodríguez Flores | 17 años | 58 kg | Femenino | Boxing Full Contact
+
+SENIOR (18-35 años) - Peso Ligero
+├─ Cornelio Martínez Vázquez | 24 años | 53 kg | Masculino | Boxing Full Contact
+├─ Belén García Soto | 21 años | 50 kg | Femenino | Boxing Full Contact
+└─ Leopoldo Sánchez García | 27 años | 55 kg | Masculino | Boxing Full Contact
+
+SENIOR (18-35 años) - Peso Pesado
+├─ Maximiliano López Cantero | 25 años | 80 kg | Masculino | Boxing Full Contact
+├─ Soledad García Jiménez | 23 años | 78 kg | Femenino | Boxing Full Contact
+└─ Aurelio Rodríguez Pico | 29 años | 83 kg | Masculino | Boxing Full Contact
+
+═══════════════════════════════════════════════════════════════════════════════
+
+📦 FREE BOXING
+───────────────────────────────────────────────────────────────────────────────
+
+JUVENIL (14-17 años) - Peso Ligero
+├─ Anselmo González Raya | 16 años | 47 kg | Masculino | Free Boxing
+├─ Providencia García Núñez | 15 años | 42 kg | Femenino | Free Boxing
+└─ Modesto Sánchez Vega | 17 años | 50 kg | Masculino | Free Boxing
+
+JUVENIL (14-17 años) - Peso Medio
+├─ Narcisa García Aguilar | 16 años | 55 kg | Femenino | Free Boxing
+├─ Abundio López Molina | 15 años | 60 kg | Masculino | Free Boxing
+└─ Gisela Rodríguez Serrano | 17 años | 57 kg | Femenino | Free Boxing
+
+SENIOR (18-35 años) - Peso Ligero
+├─ Gilberto Martínez Bueno | 23 años | 52 kg | Masculino | Free Boxing
+├─ Alicia García Franco | 20 años | 49 kg | Femenino | Free Boxing
+└─ Pompilio Sánchez Flores | 26 años | 54 kg | Masculino | Free Boxing
+
+SENIOR (18-35 años) - Peso Pesado
+├─ Eusebio López Palacios | 24 años | 81 kg | Masculino | Free Boxing
+├─ Consuelo García Vega | 22 años | 79 kg | Femenino | Free Boxing
+└─ Prudencio Rodríguez Sáez | 28 años | 84 kg | Masculino | Free Boxing
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🥋 ARTES MARCIALES TRADICIONALES
+───────────────────────────────────────────────────────────────────────────────
+
+JUVENIL (14-17 años) - Peso Ligero
+├─ Lisandro González Peña | 16 años | 46 kg | Masculino | Artes Marciales Tradicionales
+├─ Matilde García Hinojosa | 15 años | 41 kg | Femenino | Artes Marciales Tradicionales
+└─ Eladio Sánchez Colón | 17 años | 49 kg | Masculino | Artes Marciales Tradicionales
+
+JUVENIL (14-17 años) - Peso Medio
+├─ Hipólita García Melero | 16 años | 54 kg | Femenino | Artes Marciales Tradicionales
+├─ Arcadio López Ibáñez | 15 años | 59 kg | Masculino | Artes Marciales Tradicionales
+└─ Ascensión Rodríguez Cano | 17 años | 56 kg | Femenino | Artes Marciales Tradicionales
+
+SENIOR (18-35 años) - Peso Ligero
+├─ Clemente Martínez Salazar | 22 años | 51 kg | Masculino | Artes Marciales Tradicionales
+├─ Benigna García Molina | 19 años | 48 kg | Femenino | Artes Marciales Tradicionales
+└─ Cirilo Sánchez Rojo | 25 años | 53 kg | Masculino | Artes Marciales Tradicionales
+
+SENIOR (18-35 años) - Peso Pesado
+├─ Desiderio López Romero | 23 años | 82 kg | Masculino | Artes Marciales Tradicionales
+├─ Dionisia García Tena | 21 años | 80 kg | Femenino | Artes Marciales Tradicionales
+└─ Feliciano Rodríguez Nieves | 27 años | 85 kg | Masculino | Artes Marciales Tradicionales
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🛡️ SELF-DEFENSE
+───────────────────────────────────────────────────────────────────────────────
+
+JUVENIL (14-17 años) - Peso Ligero
+├─ Generoso González Valcárcel | 16 años | 45 kg | Masculino | Self-Defense
+├─ Herminia García Quevedo | 15 años | 40 kg | Femenino | Self-Defense
+└─ Heraclio Sánchez Blázquez | 17 años | 48 kg | Masculino | Self-Defense
+
+JUVENIL (14-17 años) - Peso Medio
+├─ Honoria García Barbosa | 16 años | 53 kg | Femenino | Self-Defense
+├─ Hilario López Corrales | 15 años | 58 kg | Masculino | Self-Defense
+└─ Haydée Rodríguez Sandoval | 17 años | 55 kg | Femenino | Self-Defense
+
+SENIOR (18-35 años) - Peso Ligero
+├─ Ildeberto Martínez Delgadillo | 21 años | 50 kg | Masculino | Self-Defense
+├─ Idalia García Rosales | 18 años | 47 kg | Femenino | Self-Defense
+└─ Isidro Sánchez Soto | 24 años | 52 kg | Masculino | Self-Defense
+
+SENIOR (18-35 años) - Peso Pesado
+├─ Ildefonso López Toro | 22 años | 83 kg | Masculino | Self-Defense
+├─ Indalecia García Campos | 20 años | 81 kg | Femenino | Self-Defense
+└─ Ignacio Rodríguez Peña | 26 años | 86 kg | Masculino | Self-Defense
+
+═══════════════════════════════════════════════════════════════════════════════
+
+📊 TOTAL DE COMPETIDORES: 120
+
+- Point Fighting: 12
+- Light Free Boxing: 12
+- Kick Boxing Light: 12
+- Light Thaï Boxing: 12
+- Thaï Boxing: 12
+- Boxing Full Contact: 12
+- Free Boxing: 12
+- Artes Marciales Tradicionales: 12
+- Self-Defense: 12
+
+═══════════════════════════════════════════════════════════════════════════════
+
+💡 TIPS PARA LAS PRUEBAS:
+
+1. No necesitas registrar TODOS. Con 20-30 competidores ya puedes probar bien.
+2. Elige distintas modalidades para ver cómo se clasifican.
+3. Prueba con diferentes pesos y edades.
+4. Cuando generes brackets, verás cómo se emparejan automáticamente.
+5. En Panel Árbitro, registra ganadores y ve cómo se actualiza el ranking.
+
+═══════════════════════════════════════════════════════════════════════════════

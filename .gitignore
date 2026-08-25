@@ -1,0 +1,5 @@
+node_modules/
+data/ranking-cup.db
+.env
+.DS_Store
+*.log
