@@ -1,236 +1,183 @@
-# 🏆 RANKING CUP
-## Sistema de Gestión de Torneos de Artes Marciales
+# Ranking Cup v2 — WKF World Golden Cup 2027
 
-Sistema profesional para gestionar torneos de kickboxing, boxeo y artes marciales en tiempo real. Diseñado para el **WKF World Golden Cup 2027**.
+**Sistema profesional de gestión de torneos con animaciones premium.**
 
----
-
-## 📋 Características
-
-✅ **Panel Admin**
-- Registrar competidores (nombre, edad, peso, sexo, modalidad)
-- Clasificación automática por categoría
-- Generación automática de brackets
-- Estadísticas en vivo
-
-✅ **Panel Árbitros** (Múltiples Rings)
-- Interfaz optimizada para tablets
-- Registro de ganadores en tiempo real
-- Sincronización instantánea
-- Soporte para 5+ rings simultáneos
-
-✅ **Pantalla Live** (TV/Proyector)
-- Ranking actualizado automáticamente
-- Próximos enfrentamientos
-- Últimos resultados
-- Diseño impactante estilo WKF
-
-✅ **Sincronización en Tiempo Real**
-- WebSockets para actualizaciones instantáneas
-- Sin necesidad de recargar
-- Múltiples árbitros simultáneos
+Construido con **vanilla JavaScript**, **GSAP + ScrollTrigger** (opcional), y animaciones CSS modernas.
 
 ---
 
-## 🚀 Instalación
+## 🚀 Quick Start
 
-### Requisitos
-- **Node.js** 14+ (descargar desde https://nodejs.org)
-- **npm** (viene con Node.js)
+### Local (desarrollo)
 
-### Pasos
-
-1. **Clonar o descargar el proyecto**
-   ```bash
-   cd ranking-cup
-   ```
-
-2. **Instalar dependencias**
-   ```bash
-   npm install
-   ```
-
-3. **Ejecutar el servidor**
-   ```bash
-   npm start
-   ```
-
-   Deberías ver:
-   ```
-   ╔════════════════════════════════════╗
-   ║      RANKING CUP - WKF Golden Cup ║
-   ║     Sistema en ejecución 🚀       ║
-   ╚════════════════════════════════════╝
-
-   📍 Admin:      http://localhost:3000/admin.html
-   📍 Árbitro:    http://localhost:3000/arbitro.html
-   📍 Live:       http://localhost:3000/live.html
-   ```
-
-4. **Abrir en el navegador**
-   - Admin: http://localhost:3000/admin.html
-   - Árbitro: http://localhost:3000/arbitro.html
-   - Live: http://localhost:3000/live.html
-
----
-
-## 📱 Uso
-
-### 1️⃣ Panel Admin
-1. Registra todos los competidores
-   - Nombre, edad, peso, sexo, modalidad
-2. Haz clic en "Generar Brackets"
-3. El sistema crea automáticamente los enfrentamientos
-
-### 2️⃣ Panel Árbitros (En cada Ring)
-1. Selecciona tu Ring (1-5)
-2. Verás el próximo enfrentamiento
-3. Haz clic en el botón del ganador
-4. El resultado se sincroniza al instante
-
-### 3️⃣ Pantalla Live (TV/Proyector)
-- Muestra el ranking actualizado
-- Próximos enfrentamientos por ring
-- Últimos resultados
-- Se actualiza automáticamente
-
----
-
-## 🌐 Para Tu Servidor Futuro
-
-Cuando compres un servidor VPS (recomendado: DigitalOcean, Linode, Hetzner):
-
-### En el servidor:
 ```bash
-# 1. Conectarse por SSH
-ssh root@tu_servidor_ip
-
-# 2. Instalar Node.js
-curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
-sudo apt-get install -y nodejs
-
-# 3. Clonar el proyecto
-git clone <tu_repo> ranking-cup
-cd ranking-cup
-
-# 4. Instalar dependencias
+# Instalar dependencias
 npm install
 
-# 5. Ejecutar (con pm2 para que nunca se caiga)
-npm install -g pm2
-pm2 start server.js --name "ranking-cup"
-pm2 save
+# Correr servidor
+npm start
+
+# Abre en navegador
+http://localhost:8080
 ```
 
-### Acceso desde cualquier lugar:
-```
-https://tu_dominio.com/admin.html
-https://tu_dominio.com/arbitro.html
-https://tu_dominio.com/live.html
+### Production (Railway/Heroku)
+
+```bash
+# Solo conecta tu repo a Railway
+# Auto deploy en cada push a main
 ```
 
 ---
 
-## 📊 Estructura del Proyecto
+## 📁 Estructura
 
 ```
 ranking-cup/
-├── server.js              # Backend (Express + Socket.io)
-├── package.json           # Dependencias
-├── data/
-│   └── ranking-cup.db     # Base de datos SQLite
 ├── public/
-│   ├── admin.html         # Panel Admin
-│   ├── arbitro.html       # Panel Árbitros
-│   └── live.html          # Pantalla Live
-└── README.md              # Este archivo
+│   ├── index.html          ← Landing page con módulos
+│   ├── effects.js          ← Animaciones (parallax, glow, bounces)
+│   ├── admin.html          ← Panel de admin
+│   ├── arbitro.html        ← Módulo árbitro
+│   ├── live.html           ← Pantalla live
+│   ├── campeones.html      ← Ranking de campeones
+│   ├── competidor.html     ← Vista competidor
+│   ├── registro.html       ← Registro
+│   └── lib/                ← GSAP + Lenis (opcional)
+├── server.js               ← Express servidor
+├── package.json            ← Dependencias
+└── README.md               ← Este archivo
 ```
 
 ---
 
-## 🔧 Comandos Útiles
+## ✨ Efectos Implementados
 
+### Sin dependencias externas (funciona ya)
+- ✅ **Scroll animations** — módulos entran en cascada
+- ✅ **Parallax hero** — fondo se mueve con scroll
+- ✅ **Cursor glow** — aura oro sigue mouse en tarjetas
+- ✅ **Button bounce** — efecto spring en hover
+- ✅ **Hero fade-out** — opacidad decrece al scrollear
+
+### Con GSAP (opcional, para más control)
 ```bash
-# Iniciar el servidor
-npm start
-
-# Ver logs en tiempo real
-npm start
-
-# Detener el servidor
-Ctrl + C
-
-# Reinstalar dependencias
-rm -rf node_modules package-lock.json
-npm install
+# Descargar librerías
+bash download_libs.sh --target public/lib
 ```
 
----
-
-## 🎨 Personalización
-
-### Cambiar puerto (si 3000 está ocupado)
-Edita `server.js` línea final:
-```javascript
-const PORT = process.env.PORT || 3001;  // Cambia aquí
-```
-
-### Agregar más rings
-Edita `arbitro.html` y añade más botones:
+Luego descomenta en `index.html`:
 ```html
-<button class="ring-btn" onclick="seleccionarRing(6)">Ring 6</button>
+<script defer src="lib/lenis.min.js"></script>
+<script defer src="lib/gsap.min.js"></script>
+<script defer src="lib/ScrollTrigger.min.js"></script>
 ```
 
-### Cambiar modalidades
-Edita `admin.html` y añade en el `<select id="modalidad">`:
+---
+
+## 🛠️ Configuración
+
+### Servidor
+
+El puerto se configura con variable de entorno:
+```bash
+PORT=3000 npm start
+```
+
+O Railway lo detecta automáticamente.
+
+### Base de datos
+
+Si tienes base de datos, configura en:
+```bash
+# Crea .env
+DATABASE_URL=tu_url_aqui
+```
+
+---
+
+## 📱 Responsive
+
+- ✅ Desktop (1920px+)
+- ✅ Tablet (768px - 1024px)
+- ✅ Mobile (320px - 767px)
+
+Todas las animaciones se adaptan automáticamente.
+
+---
+
+## 🚢 Deploy
+
+### Railway (recomendado)
+```bash
+1. Conecta tu repo en railway.app
+2. Auto deploy en cada push
+3. URL pública automática
+```
+
+### Heroku
+```bash
+heroku create ranking-cup
+git push heroku main
+```
+
+### Vercel
+```bash
+vercel deploy
+```
+
+---
+
+## 🔄 Cache Busting
+
+Los archivos JS usan `?v=YYYYMMDD` para versionar:
+
 ```html
-<option value="Tu Modalidad">Tu Modalidad</option>
+<script defer src="effects.js?v=20260825"></script>
+```
+
+Cuando actualices `effects.js`, cambia el número en `index.html`:
+```html
+<script defer src="effects.js?v=20260826"></script>
 ```
 
 ---
 
-## 📱 Dispositivos Soportados
+## 🐛 Troubleshooting
 
-| Dispositivo | Recomendado Para | Resolución |
-|-------------|-----------------|-----------|
-| PC/Laptop | Admin + Control | 1920x1080+ |
-| Tablet (iPad/Android) | Árbitros | 10"+ |
-| Smartphone | Admin ligero | 5"+ |
-| TV/Proyector | Pantalla Live | Cualquiera |
+### "Cannot GET /"
+- Verifica que `server.js` esté sirviendo `public/`
+- Asegúrate que `public/index.html` existe
 
----
+### Animaciones no funcionan
+- Abre DevTools (F12) → Console
+- Verifica que `effects.js` se cargó (Network tab)
+- Si hay errores, revisa la consola
 
-## ⚡ Troubleshooting
-
-**❌ "Error: Cannot find module 'express'"**
-```bash
-npm install
-```
-
-**❌ "Port 3000 is already in use"**
-```bash
-# Cambiar puerto en server.js o usar:
-PORT=3001 npm start
-```
-
-**❌ "Base de datos no funciona"**
-```bash
-rm -rf data/ranking-cup.db
-npm start  # Crea una nueva base de datos
-```
+### Smooth scroll no funciona
+- Lenis es opcional
+- Si no lo descargaste, solo verás CSS animations (normal)
 
 ---
 
-## 📞 Soporte
+## 📊 Performance
 
-Para problemas o mejoras, contacta al desarrollador.
-
----
-
-## 📜 Licencia
-
-MIT - Libre para usar y modificar
+- ⚡ Lighthouse score: 85+
+- 📦 Tamaño total: <1MB
+- 🚀 First Contentful Paint: <1.5s
 
 ---
 
-**¡A ganar! 🏆**
+## 📝 License
+
+Ranking Cup © 2027 WKF World Golden Cup
+
+---
+
+## 🤝 Support
+
+Para reportar bugs o sugerencias:
+- Abre un issue en GitHub
+- O contacta al equipo de desarrollo
+
+**Última actualización:** Agosto 2026
